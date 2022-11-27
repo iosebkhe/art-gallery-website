@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 48em) {
+  .wrap {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, min-content);
+    /* 11px */
+    row-gap: 0.688rem;
+    grid-template-areas:
+      "item-1 item-1 item-0 item-0 item-0"
+      "item-2 item-2 item-2 item-3 item-3"
+      "item-2 item-2 item-2 item-3 item-3"
+      "item-2 item-2 item-2 item-4 item-4"
+      "item-2 item-2 item-2 item-4 item-4";
+    justify-items: end;
+  }
+
+  .item-0 {
+    grid-area: item-0;
+  }
+  .item-1 {
+    grid-area: item-1;
+  }
+
+  .item-2 {
+    grid-area: item-2;
+  }
+
+  .item-3 {
+    grid-area: item-3;
+  }
+
+  .item-4 {
+    grid-area: item-4;
+  }
+}
+
+@media (min-width: 80em) {
+  .wrap {
+    row-gap: 0;
+    justify-items: stretch;
+  }
+}
