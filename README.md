@@ -14,8 +14,7 @@ This is a solution to the Art Gallery Website challenge from Frontendment which 
 
 ## Author
 
-Upwork - [@iosebkhe](https://www.upwork.com/freelancers/~01fbebd52cae6cc8ef)
-
+- Upwork - [@iosebkhe](https://www.upwork.com/freelancers/~01fbebd52cae6cc8ef)
 - Fiverr - [@iosebkhe](https://www.fiverr.com/iosebkhe)
 - CodePen - [@iosebkhe](https://codepen.io/iosebkhe)
 - Frontend Mentor - [@iosebkhe](https://www.frontendmentor.io/profile/iosebkhe)
