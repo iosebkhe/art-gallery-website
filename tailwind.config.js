@@ -46,6 +46,10 @@ module.exports = {
         5.5: ["1.375rem", "2rem"], //font-size: 22px, line height: 32px
         8: "2rem", //32px
       },
+
+      gridTemplateRows: {
+        "3-min": "400px 313px 396px",
+      },
     },
   },
   plugins: [],
